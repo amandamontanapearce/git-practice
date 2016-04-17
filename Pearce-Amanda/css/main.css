@@ -1,0 +1,175 @@
+/*--------General----------*/
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*--------Header----------*/
+header {
+  height: 350px;
+  background: url(/img/IMGheader.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: silver;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 225px;
+  text-align: center;
+  font-family: cursive;
+  color: aquamarine;
+  text-shadow: 2px 2px 1px black;
+  font-size: 2.25em;
+}
+  
+/*--------Navigation----------*/
+nav {
+  padding-top: 0px;
+  position: relative;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: monospace;
+  padding: 0px 15px;
+  font-weight: 800;
+ 
+}
+
+/*--------Body----------*/
+h2 {
+  text-align: center;
+  padding 5px;
+  border: solid 3px silver;
+  color: black;
+  font-family: cursive;
+  background-color: aquamarine;
+}
+
+h3 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding 5px;
+  border: solid 3px aquamarine;
+  color: black;
+  font-family: cursive;
+  background-color: silver;
+}
+
+p, ul li {
+  text-align: center;
+  color: black;
+  font-family:sans-serif;
+}
+
+#fancy {
+  height: 200px;
+  width: 200px;
+  border: solid 5px black;
+  display: block;
+  margin: 20px auto;
+}
+
+#moon, #swing {
+  display: block;
+  margin: 0;
+}
+
+
+.giff {
+  display: block;
+  margin: 0 auto;
+  border: solid 5px black;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background-color: aquamarine;
+}
+
+/*--------vision board----------*/
+
+#visionBoard {
+  display: none;
+  background: url(/img/visionboard.jpeg) no-repeat;
+  width: 1024px;
+  height: 576px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.visionExplanation, #visionIntro {
+  display: none;
+}
+
+#html5, #visionQuote, #chive, #blackCanyon {
+ display: inline-block;
+ padding-left: 30px;
+ padding-top: 30px;
+}
+
+/*--------Footer----------*/
+footer {
+  background-color: aquamarine;
+  position: absolute;
+  width: 100%;
+  border-top: solid 3px black;
+}
+
+footer ul {
+  padding: 0;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  font-family: sans-serif;
+  padding: 5px 5px;
+  font-weight: 500;
+}
+
+footer p {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  font-size: 1.25rem;
+  padding: 5px;
+  
+}
+.socialMedia {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+
+
+
+
